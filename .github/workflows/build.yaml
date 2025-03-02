@@ -17,8 +17,8 @@ jobs:
           distribution: 'temurin'
 
       - name: Compile Java Code
-        run: javac src/com/sheridan/App.java
+        run: javac src/main/java/com/sheridan/App.java
 
       - name: Run Java Application
-        run: java -cp src com.sheridan.App
+        run: java -cp src/main/java com.sheridan.App
 
