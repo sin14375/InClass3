@@ -16,7 +16,7 @@ pipeline {
 
         stage('Run Java Application') {
             steps {
-                sh 'java -cp src com.sheridan.App'
+                sh 'java -cp src/main/java com.sheridan.App'
             }
         }
     }
