@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Clone Repository') {
             steps {
-                git 'https://github.com/sin14375/InClass3.git'
+                git branch: 'main', url: 'https://github.com/sin14375/InClass3.git'
             }
         }
 
